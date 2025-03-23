@@ -20,13 +20,12 @@ Download the datasets from the following Google Drive link:
 ---
 
 ## Python Scripts
-In src folder:
 
 | File              | Description                              |
 |-------------------|------------------------------------------|
-| `fine_tune.py`     | Fine-tune GPT-3.5 on the ADM dataset      |
-| `eval.py`          | Evaluate model performance                |
-| `create_prompt.py` | Generate prompts from input data          |
+| `src/fine_tune.py`     | Fine-tune GPT-3.5 on the ADM dataset      |
+| `src/eval.py`          | Evaluate model performance                |
+| `src/create_prompt.py` | Generate prompts from input data          |
 | `Tutorial.ipynb`   | Quick-start notebook                      |
 
 
