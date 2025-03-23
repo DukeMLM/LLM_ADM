@@ -19,7 +19,8 @@ Download the datasets from the following Google Drive link:
 
 ---
 
-## Iore Python Scripts
+## Python Scripts
+In src folder:
 
 | File              | Description                              |
 |-------------------|------------------------------------------|
