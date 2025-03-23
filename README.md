@@ -17,8 +17,9 @@ conda activate llm_adm
 Download the datasets from the following Google Drive link:  
 🔗 [ADM Dataset](https://drive.google.com/drive/folders/1L53bAP2vT3V_DyiwCOjSDX-SaRhrjLlk?usp=drive_link)
 
+---
 
-## Core Python Scripts
+## Iore Python Scripts
 
 | File              | Description                              |
 |-------------------|------------------------------------------|
@@ -26,6 +27,9 @@ Download the datasets from the following Google Drive link:
 | `eval.py`          | Evaluate model performance                |
 | `create_prompt.py` | Generate prompts from input data          |
 | `Tutorial.ipynb`   | Quick-start notebook                      |
+
+
+---
 
 ## Baseline
 
