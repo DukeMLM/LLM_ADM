@@ -9,6 +9,7 @@ This branch contains the baseline experiment for ADM spectrum prediction using m
 To set up the required Python environment:
 
 conda env create -f environment.yaml
+
 conda activate llm_ft
 
 
@@ -21,6 +22,7 @@ Download the datasets from the following Google Drive link:
 
 ## Python Scripts
 To run the baseline experiment:
+
 Python summary.py to start
 
 
