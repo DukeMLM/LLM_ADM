@@ -94,15 +94,7 @@ def process_res(resp,mode=10):
 
 def mean_absolute_percentage_error2(true_values, predicted_values):
     """
-    Calculate the Median Absolute Percentage Error (MedAPE).
-
-    Parameters:
-    - true_values (array-like): Array of true values.
-    - predicted_values (array-like): Array of predicted values.
-    - epsilon (float): Small value to avoid division by zero errors (default is 1e-8).
-
-    Returns:
-    - medape (float): The Median Absolute Percentage Error as a percentage.
+    Calculate the Mean Absolute Percentage Error (MAPE).
     """
     # Convert inputs to numpy arrays for calculation
     true_values = np.array(true_values)
@@ -111,7 +103,7 @@ def mean_absolute_percentage_error2(true_values, predicted_values):
     # Calculate absolute percentage errors, adding epsilon to avoid division by zero
     absolute_percentage_errors = np.abs((true_values - predicted_values) / (true_values+1e-4))
  
-    # Calculate MedAPE
+    # Calculate MAPE
     mape = np.mean(absolute_percentage_errors)
 
     return mape
