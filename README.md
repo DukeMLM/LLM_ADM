@@ -1,5 +1,5 @@
 
-This repo uses GPT-3.5 to predict ADM spectra. Currently, it is not structured as a standalone library.
+This branch contains the baseline experiment for ADM spectrum prediction using machine learning. Currently, it is not structured as a standalone library.
 
 ---
 
@@ -20,17 +20,12 @@ Download the datasets from the following Google Drive link:
 ---
 
 ## Python Scripts
-
-| File              | Description                              |
-|-------------------|------------------------------------------|
-| `src/fine_tune.py`     | Fine-tune GPT-3.5 on the ADM dataset      |
-| `src/eval.py`          | Evaluate model performance                |
-| `src/create_prompt.py` | Generate prompts from input data          |
-| `Tutorial.ipynb`   | Quick-start notebook                          |
+To run the baseline experiment:
+Python summary.py to start
 
 
 ---
 
-## Baseline
+## LLM
 
-Switch to the Baseline branch.
+Switch to the main branch.
