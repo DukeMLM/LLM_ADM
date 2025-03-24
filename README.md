@@ -1,5 +1,5 @@
 
-This branch contains the baseline experiment for ADM spectrum prediction using machine learning. Currently, it is not structured as a standalone library.
+This branch contains the baseline experiment for ADM spectrum prediction using machine learning.
 
 ---
 
