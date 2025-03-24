@@ -1,5 +1,5 @@
 
-This repo uses GPT-3.5 to predict ADM spectra. Currently, it is not structured as a standalone library.
+This repo uses GPT-3.5 to predict ADM spectra.
 
 ---
 
