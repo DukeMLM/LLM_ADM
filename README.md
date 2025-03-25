@@ -9,6 +9,7 @@ This repo uses GPT-3.5 to predict ADM spectra.
 To set up the required Python environment:
 
 conda env create -f environment.yaml
+
 conda activate llm_ft
 
 
